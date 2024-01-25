@@ -1,0 +1,53 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.content {
+  max-width: 920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 0;
+
+  ul {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+  }
+
+  b {
+    font-size: 20px;
+    color: #3f564a;
+  }
+
+  img {
+    max-width: 280px;
+    object-fit: contain;
+  }
+}
+
+.parent {
+  max-width: 920px;
+  border-radius: 8px;
+  border: 2px solid #2d7a53;
+  padding: 0 20px 20px;
+  margin: auto;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  input {
+    border: 1px solid #3f564a;
+    border-radius: 8px;
+    padding: 7.5px 12px;
+  }
+}

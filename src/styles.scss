@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.btn {
+  color: #fbfdff;
+  background: #2d7a53;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  transition: background 0.4s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: #68a486;
+  }
+}
